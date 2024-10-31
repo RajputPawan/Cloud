@@ -1,0 +1,40 @@
+Simple storage service.
+Object level storage.
+Stores data in bucket as object.
+Stores unlimited data of any form (eg. Audio, video,jpg, etc)
+Globally unique name 
+Its best for static website hosting.
+Used for Archiving data.
+
+STORAGE CLASSES
+
+S3 Standard.
+Used for more frequent data. 
+Data is stored in min. 3Az's 
+
+S3 Standard I-A
+Same as S3 Standard but good for infrequent access.
+High retrieval cost, Less storage cost.
+
+S3- IA –IZ 
+Same as S3-IA .
+Data is stored in only one AZ .
+
+S3 – Intelligent Tiering.
+It's good for the data with the changing patterns.
+In Intelligent tiering it switches the storage class based on the access.
+Requires monthly monitoring and automation fee.
+
+S3 Glacier
+It is used for archiving data or storing data for long term.
+The data can be accessed within the milliseconds.
+
+
+S3 Glacier flexible retrieval
+It is also used for archiving the data
+Data can be accessed in few min to hours
+
+S3- Glacier Deep Archive
+It's used for long term storing the data 
+The data can be accessed in hours 
+Storage is very cheap and data accessing is very expensive.
