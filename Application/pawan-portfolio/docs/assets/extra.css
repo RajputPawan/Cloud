@@ -1,0 +1,15 @@
+/* Minor polish for portfolio */
+:root {
+  --md-primary-fg-color: #2563eb; /* blue-600 */
+}
+
+/* Make hero buttons more prominent on Home */
+.md-typeset .md-button.md-button--primary { box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35); }
+.md-typeset .md-button:not(.md-button--primary) { box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+
+/* Compact tables and lists */
+.md-typeset table { font-size: .9rem; }
+
+/* Improve heading spacing */
+.md-typeset h1 { margin-top: .2rem; }
+.md-typeset h2 { margin-top: 1.2rem; }
