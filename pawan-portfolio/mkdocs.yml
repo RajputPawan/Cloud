@@ -2,7 +2,7 @@ site_name: "Pawan Rajput — Portfolio"
 site_description: "Jr. DevOps engineer — Linux, Containers, Kubernetes, AWS, Automation"
 site_author: "Pawan Rajput"
 # Replace with your actual Pages URL once known
-site_url: "https://pawan.github.io/portfoilo"
+site_url: "https://RajputPawan.github.io/Cloud"
 
 theme:
   name: material
@@ -40,7 +40,7 @@ nav:
 plugins:
   - search
   - sitemap:
-      url:  "https://pawan.github.io/portfoilo"
+      url:  "https://RajputPawan.github.io/Cloud"
   - minify:
       minify_html: true
 
