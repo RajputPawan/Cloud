@@ -1,0 +1,69 @@
+site_name: "Pawan Rajput — Portfolio"
+site_description: "Jr. DevOps engineer — Linux, Containers, Kubernetes, AWS, Automation"
+site_author: "Pawan Rajput"
+# Replace with your actual Pages URL once known
+site_url: "https://<your-username>.github.io/<your-repo>"
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Experience: experience.md
+  - Education: education.md
+  - Certifications: certifications.md
+  - Blog: blog/index.md
+  - Contact: contact.md
+
+plugins:
+  - search
+  - sitemap:
+      url: "https://<your-username>.github.io/<your-repo>"
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RajputPawan
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pawan-rajput-b3918a251/
+      name: LinkedIn
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# MkDocs will output to the "site/" folder by default
